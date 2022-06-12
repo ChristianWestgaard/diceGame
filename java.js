@@ -18,7 +18,7 @@ var randomImageSource2 = "/dicegame/images/" + randomDiceImage;
 
 var image2 = document.querySelectorAll("img")[0];
 
-document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
+image2.setAttribute("src", randomImageSource);
 
 
 //If player 1 wins
