@@ -3,28 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Dicee</title>
-    <link rel="stylesheet" href="/diceGame/style.css">
+    <link rel="stylesheet" href="/diceGame/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
   </head>
   <body>
 
-    <div class="container">
-      <h1>Refresh Me</h1>
-
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="/diceGame/images/dice6.png">
-      </div>
-
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="/diceGame/images/dice6.png">
-      </div>
-
+  <div class="container">
+      <h1>Refresh the page to start the game</h1>
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice6.png">
     </div>
 
-    <script src="/diceGame/java.js" charset="utf-8"></script>
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
 
-      </body>
-    </html>
+    <script src="index.js" charset="utf-8"></script>
+  <div class="buttonDiv">
+    <button onClick="window.location.reload();">Refresh Page</button>
+  </div>
+  </body>
+
+  <footer>
+  </footer>
+</html>
+
