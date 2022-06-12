@@ -16,6 +16,8 @@ var randomDiceImage = "dice" + randomNumber2 + ".png";
 
 var randomImageSource2 = "/dicegame/images/" + randomNuDiceImage2 + ".png";
 
+var image2 = document.querySelectorAll("img")[0];
+
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
